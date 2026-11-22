@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+computation/count_tables
+computation/count_marked
+computation/ringcheck
+computation/algs.g
+computation/rings_*.txt
+computation/ctrl.txt
