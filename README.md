@@ -17,7 +17,7 @@ stop at n = 63 (a(32) = 208).
 | **Commutative unital rings of order 64** | **462** |
 | **All unital rings of order 64** | **2,134 + N** |
 
-N is the number of indecomposable **non-local** rings of order 64 (R/J a
+$N$ is the number of indecomposable **non-local** rings of order 64 ($R/J$ a
 product of at least two fields). That is the one piece still missing, so
 currently **a(64) ≥ 2,134**.
 
@@ -29,16 +29,16 @@ n = 63.)
 
 1. **Indecomposables.** A finite unital ring splits uniquely (via central
    idempotents) into indecomposable rings, so the totals are the Euler
-   transform of the indecomposable counts. From a(2^k) = 1, 4, 11, 50, 208
-   (k = 1..5) the indecomposable counts are i_k = 1, 3, 7, 33, 137, and
+   transform of the indecomposable counts. From $a(2^k) = 1, 4, 11, 50, 208$
+   $(k = 1..5)$ the indecomposable counts are $i_k = 1, 3, 7, 33, 137$, and
 
-   **a(64) = 345 + i_6.**
+   **$a(64) = 345 + i_6.$**
 
    Commutative: indecomposable counts 1, 3, 6, 21, 54 (from
    [A127707](https://oeis.org/A127707)), giving 203 + (commutative local rings
    of order 64).
-2. **No matrix blocks.** If R/J(R) had a block M_2(F_2), lifting matrix units
-   makes that corner M_2(S), of order |S|^4 (16 or 256, never 64), and gluing
+2. **No matrix blocks.** If $R/J(R)$ had a block $M_2(F_2)$, lifting matrix units
+   makes that corner $M_2(S)$, of order |S|^4 (16 or 256, never 64), and gluing
    anything to it needs at least 128 elements. So an indecomposable ring of
    order 64 is local, or basic non-local (R/J a product of ≥ 2 fields).
 3. **Local rings, residue field F2** ↔ *marked pairs* (J, c): J = J(R) is a
