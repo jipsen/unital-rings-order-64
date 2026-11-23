@@ -73,7 +73,7 @@ R \;\cong\; (\mathbb{Z} \oplus J) \,/\, \langle (2, -c) \rangle,
 R \cong R' \iff (J, c) \cong (J', c'),
 ```
 
-and $`\operatorname{char} R = 2 \operatorname{ord}(c)`$. Characteristic 2 is
+and $\text{char} R = 2 \text{ord}(c)$. Characteristic 2 is
 $`c = 0`$, i.e. $`J`$ a nilpotent $`\mathbb{F}_2`$-algebra.
 
 ### 4. Local rings with residue field $`\mathbb{F}_q`$, $`q = 4, 8`$
@@ -100,7 +100,7 @@ R \;\cong\; \bigl(\mathbb{Z}[x]/(h) \ltimes J\bigr) \,/\, \{(2s, -s c)\},
 ```
 
 and isomorphism classes are the orbits of
-$`\operatorname{Aut}(J, c) \times \langle \zeta \mapsto \zeta^2 \rangle`$.
+$`\text{Aut}(J, c) \times \langle \zeta \mapsto \zeta^2 \rangle`$.
 
 ## Results
 
@@ -131,12 +131,12 @@ char 64: 1 / 0.
 
 **Nilpotent $`\mathbb{F}_2`$-algebras** (`enum_nilpotent.py`).
 Skjelbred–Sund central extensions. Algebras without an annihilator component
-are $`B_\theta`$ with $`B = A / \operatorname{Ann}(A)`$, where $`\theta`$ runs
-over $`\operatorname{Aut}(B)`$-orbits of subspaces of $`H^2(B, \mathbb{F}_2)`$
-satisfying $`\operatorname{Ann}(B) \cap \operatorname{Ann}(\theta) = 0`$.
+are $`B_\theta`$ with $`B = A / \text{Ann}(A)`$, where $`\theta`$ runs
+over $`\text{Aut}(B)`$-orbits of subspaces of $`H^2(B, \mathbb{F}_2)`$
+satisfying $`\text{Ann}(B) \cap \text{Ann}(\theta) = 0`$.
 
 **Marked rings, all characteristics** (`enum_local_F2.py`).
-Central extensions by the full annihilator $`Z = \operatorname{Ann}(J)`$, which
+Central extensions by the full annihilator $`Z = \text{Ann}(J)`$, which
 is elementary abelian since $`2z = cz = 0`$. For
 $`(K, \bar c) = (J/Z,\, c \bmod Z)`$ in a fixed polycyclic presentation, $`J`$
 is given by additive data $`\tau`$, product data $`\theta`$ and the offset
@@ -150,9 +150,9 @@ c = \bar c + z_c ,
 
 subject to linear conditions; changing the lifts $`g_i`$ gives the
 coboundaries. With $`H`$ = cocycles / coboundaries, isomorphism classes
-correspond to $`\operatorname{Aut}(K, \bar c)`$-orbits of subspaces
+correspond to $`\text{Aut}(K, \bar c)`$-orbits of subspaces
 $`W \le H`$ with $`\dim W \le \dim Z`$ and
-$`\operatorname{Ann}(K) \cap \operatorname{Ann}(W) = 0`$.
+$`\text{Ann}(K) \cap \text{Ann}(W) = 0`$.
 
 **Residue fields $`\mathbb{F}_4`$, $`\mathbb{F}_8`$** (`enum_residue_Fq.py`).
 Enumerate all additive endomorphisms $`\lambda, \rho`$ of $`J`$ satisfying the
@@ -178,7 +178,7 @@ residue-$`\mathbb{F}_4`$/$`\mathbb{F}_8`$ rings.
 **Nothing missing (mass formula).** For $`m = 1, \dots, 5`$,
 
 ```math
-\sum_{(J,c)} \frac{f(J)}{\lvert \operatorname{Aut}(J, c) \rvert}
+\sum_{(J,c)} \frac{f(J)}{\lvert \text{Aut}(J, c) \rvert}
 \;=\; \frac{T(m)}{2^{m(m-1)/2}}
 ```
 
@@ -219,7 +219,7 @@ minutes.
 * `residue_F4_order64.json`, `residue_F8_order64.json` — each entry has the
   marked ring `J`, the value tables `L` ($`\lambda : y \mapsto \zeta y`$) and
   `R` ($`\rho : y \mapsto y \zeta`$) on $`J`$, and the invariants
-  ($`\operatorname{char} R`$, commutative, $`\lvert Z(R) \rvert`$,
+  ($`\text{char} R`$, commutative, $`\lvert Z(R) \rvert`$,
   $`\lvert J^2 \rvert`$, $`\#\{x \in J : x^2 = 0\}`$,
   $`\#\{(x, y) \in J \times J : xy = 0\}`$, and the sizes of the left and right
   annihilators of $`J`$ in $`J`$).
