@@ -2,7 +2,8 @@
 
 Goal: count the unital (associative) rings with 64 elements up to isomorphism.
 The sequence is [OEIS A037291](https://oeis.org/A037291); its known terms
-stop at n = 63 (a(32) = 208).
+stop at n = 63 (a(32) = 208). The code, data and descriptions in this repository 
+were produced by Claude Opus 5.5 under a free Claude Team plan for scientists.
 
 ## Current status
 
