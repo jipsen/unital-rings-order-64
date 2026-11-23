@@ -163,3 +163,10 @@ minutes.
   dimension, IJAC 28 (2018) 133–161.
 
 These are computational results and have not been peer reviewed.
+
+## License
+
+* **Code** (`computation/*.py`, `*.c`, `*.g`, `*.sh`): MIT License — see
+  [LICENSE](LICENSE).
+* **Data** (`computation/*.json`, `computation/*.txt`): Creative Commons
+  Attribution 4.0 International (CC BY 4.0) — see [LICENSE-DATA](LICENSE-DATA).
